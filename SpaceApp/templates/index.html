@@ -1,0 +1,34 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<div class="jumbotron">
+    <!--<h1>Flask</h1>-->
+    <p class="lead">An interactive tool to educate about the basics of our Solar System.</p>
+</div>
+
+
+<style>
+    .game {
+        max-width: 1000px;
+        max-height: 500px;
+        height: 100%;
+        background-color: powderblue;
+    }
+
+    iframe {
+        width: 100%; /* adjust to your needs */
+        max-width: 100%; /* to make it responsive */
+        height: 100%
+    }
+</style>
+    
+
+
+
+    <div class="game" style="height:500px">
+        <iframe  src="https://scratch.mit.edu/projects/427339221/embed/" frameborder="0"></iframe>
+    </div>
+
+
+    {% endblock %}
